@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplo.modelo", "Modelo\ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplo.dao", "dao\exemplo.dao.csproj", "{BAC633FE-18B5-4073-A229-399E60866125}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplo", "exemplo\exemplo.csproj", "{DA9ADB75-8739-466F-94B4-1371F44C9E61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BAC633FE-18B5-4073-A229-399E60866125}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAC633FE-18B5-4073-A229-399E60866125}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAC633FE-18B5-4073-A229-399E60866125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9ADB75-8739-466F-94B4-1371F44C9E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9ADB75-8739-466F-94B4-1371F44C9E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9ADB75-8739-466F-94B4-1371F44C9E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9ADB75-8739-466F-94B4-1371F44C9E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
