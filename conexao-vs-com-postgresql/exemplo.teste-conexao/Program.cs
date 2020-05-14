@@ -10,6 +10,7 @@ namespace exemplo.teste_conexao
             NpgsqlConnection con = new FabricaConexoes().conexao();
             Console.WriteLine("Conexão aberta!");
             con.Close();
+            Console.ReadKey();
         }
     }
 }

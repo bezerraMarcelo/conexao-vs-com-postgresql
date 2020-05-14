@@ -7,5 +7,6 @@ namespace exemplo.modelo
         public int id;
         public string nome;
         public string email;
+        public DateTime dataCadastro;
     }
 }

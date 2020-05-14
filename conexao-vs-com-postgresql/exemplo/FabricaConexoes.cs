@@ -9,7 +9,7 @@ namespace exemplo
         {
             try
             {
-                string stringConexao = "server=localhost;port=5432;user id=postgres;password=root;database=cliente";
+                string stringConexao = "server=localhost;port=5432;user id=postgres;password=root;database=Cliente";
                 return new NpgsqlConnection(stringConexao);
             } catch (Exception e)
             {
