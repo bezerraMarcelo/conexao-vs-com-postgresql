@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Modelo
+namespace exemplo.modelo
 {
     public class Contato
     {

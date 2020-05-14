@@ -1,7 +1,7 @@
-﻿using Modelo;
+﻿using exemplo.modelo;
 using System;
 
-namespace dao
+namespace exemplo.dao
 {
     public class ContatoDao
     {
