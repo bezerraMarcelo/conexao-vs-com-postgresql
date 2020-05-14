@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exemplo.dao", "dao\exemplo.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exemplo", "exemplo\exemplo.csproj", "{DA9ADB75-8739-466F-94B4-1371F44C9E61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplo.teste-conexao", "exemplo.teste-conexao\exemplo.teste-conexao.csproj", "{8C18A7AE-B23E-4887-B43F-00AFF1DF8C3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exemplo.teste-conexao", "exemplo.teste-conexao\exemplo.teste-conexao.csproj", "{8C18A7AE-B23E-4887-B43F-00AFF1DF8C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplo.teste-adiciona", "exemplo.teste-adiciona\exemplo.teste-adiciona.csproj", "{9699DD43-CC6F-407C-A453-B8521DD56551}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8C18A7AE-B23E-4887-B43F-00AFF1DF8C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C18A7AE-B23E-4887-B43F-00AFF1DF8C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C18A7AE-B23E-4887-B43F-00AFF1DF8C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9699DD43-CC6F-407C-A453-B8521DD56551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9699DD43-CC6F-407C-A453-B8521DD56551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9699DD43-CC6F-407C-A453-B8521DD56551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9699DD43-CC6F-407C-A453-B8521DD56551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
