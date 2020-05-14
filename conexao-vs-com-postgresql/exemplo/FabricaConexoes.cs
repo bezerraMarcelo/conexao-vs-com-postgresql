@@ -5,7 +5,7 @@ namespace exemplo
 {
     public class FabricaConexoes
     {
-        public NpgsqlConnection conexao()
+        public NpgsqlConnection Conexao()
         {
             try
             {
@@ -13,7 +13,7 @@ namespace exemplo
                 return new NpgsqlConnection(stringConexao);
             } catch (Exception e)
             {
-                throw new System.ArgumentException("Erro ao conectar ao banco de dados");                
+                throw new System.ArgumentException("Erro ao conectar ao banco de dados " + e.Message);                
             }
             
         }

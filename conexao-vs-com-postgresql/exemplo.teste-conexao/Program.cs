@@ -7,7 +7,7 @@ namespace exemplo.teste_conexao
     {
         static void Main(string[] args)
         {
-            NpgsqlConnection con = new FabricaConexoes().conexao();
+            NpgsqlConnection con = new FabricaConexoes().Conexao();
             Console.WriteLine("Conexão aberta!");
             con.Close();
             Console.ReadKey();

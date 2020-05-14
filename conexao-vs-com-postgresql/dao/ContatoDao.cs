@@ -10,9 +10,9 @@ namespace exemplo.dao
 
         public ContatoDao()
         {
-            this.conexao = new FabricaConexoes().conexao();
+            this.conexao = new FabricaConexoes().Conexao();
         }
-        public void adiciona(Contato contato)
+        public void Adicionar(Contato contato)
         {
 
         }
