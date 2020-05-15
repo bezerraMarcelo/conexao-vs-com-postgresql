@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplo.teste-ler", "exempl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teste.testar-alterar", "teste.testar-alterar\teste.testar-alterar.csproj", "{4D21128F-8D02-426A-B454-87ED7E7A934A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplo.testar-deletar", "exemplo.testar-deletar\exemplo.testar-deletar.csproj", "{161C8F70-1B27-4994-A337-02A1439087DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4D21128F-8D02-426A-B454-87ED7E7A934A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D21128F-8D02-426A-B454-87ED7E7A934A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D21128F-8D02-426A-B454-87ED7E7A934A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161C8F70-1B27-4994-A337-02A1439087DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161C8F70-1B27-4994-A337-02A1439087DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161C8F70-1B27-4994-A337-02A1439087DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161C8F70-1B27-4994-A337-02A1439087DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

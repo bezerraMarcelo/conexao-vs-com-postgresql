@@ -54,6 +54,24 @@ namespace exemplo.dao
                 conexao.Close();
             }
         }
+        public void Deletar(Int32 id)
+        {
+            conexao.Open();
+            try
+            {
+                string comando = "delete from contatos where id = @p1";
+
+                using (var cmd = new NpgsqlCommand(comando, conexao))
+                {
+                    cmd.Parameters.AddWithValue("p1", id);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }
         public List<Contato> Ler()
         {
             List<Contato> lista =  new List<Contato>();
