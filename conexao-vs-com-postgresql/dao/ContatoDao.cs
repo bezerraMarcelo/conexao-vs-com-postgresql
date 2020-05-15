@@ -34,6 +34,26 @@ namespace exemplo.dao
             }
         }
 
+        public void Alterar(Contato contato)
+        {
+            conexao.Open();
+            try
+            {
+                string comando = "update contatos set nome = @p1, email = @p2 where id = @p3";
+
+                using (var cmd = new NpgsqlCommand(comando, conexao))
+                {
+                    cmd.Parameters.AddWithValue("p1", contato.nome);
+                    cmd.Parameters.AddWithValue("p2", contato.email);
+                    cmd.Parameters.AddWithValue("p3", contato.id);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }
         public List<Contato> Ler()
         {
             List<Contato> lista =  new List<Contato>();
